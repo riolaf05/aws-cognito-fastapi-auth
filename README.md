@@ -40,7 +40,7 @@ To call the /secure endpoint, use the token obtained in the previous step as par
 
 ```console
 curl --request GET \
-  --url http://0.0.0.0:3000/secure \
+  --url http://localhost:3000/secure \
   --header 'Authorization: Bearer YOUR_ACCESS_TOKEN'
 ```
 
